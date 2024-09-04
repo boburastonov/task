@@ -50,7 +50,7 @@ const Modal = ({ isOpen, onClose }) => {
       return;
     }
     const token = "7229813830:AAFlDf6El0NDlFH5wod5x8vT1jV-IJhEKU8";
-    const chat_id = "5730538728";
+    const chat_id = -1002226253227;
     const url = `https://api.telegram.org/bot${token}/sendMessage`;
 
     const messageContent = `Name: ${formData.fName} \nPhone Number: ${formData.phone} \nActivity: ${formData.activity} \nBudget: ${formData.budget}`;
