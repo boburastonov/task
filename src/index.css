@@ -1,0 +1,37 @@
+@import url("https://fonts.cdnfonts.com/css/times-new-roman");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000;
+  /*  */
+  /* #0A0A0A */
+  font-family: "Times New Roman", sans-serif;
+  color: #fff;
+}
+
+.hero {
+  background-image: url("./assets/webb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#number:focus-visible {
+  outline: 0;
+}
+
+input:focus {
+  outline: 0;
+}
+
+
