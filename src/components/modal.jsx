@@ -4,6 +4,7 @@ import PhoneInput from "react-phone-number-input";
 import axios from "axios";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import heroImg from "../assets/sm.png";
 
 const Modal = ({ isOpen, onClose }) => {
   const [formData, setFormData] = useState({
@@ -81,6 +82,7 @@ const Modal = ({ isOpen, onClose }) => {
         className="bg-white rounded-lg shadow-xl p-6 md:w-[40%] w-full"
         onClick={(e) => e.stopPropagation()}
       >
+        <img className="mb-4 mx-auto" src={heroImg} />
         <form onSubmit={sendMessage} className="space-y-4">
           <div>
             <input
