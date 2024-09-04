@@ -82,7 +82,7 @@ const Modal = ({ isOpen, onClose }) => {
         className="bg-white rounded-lg shadow-xl p-6 md:w-[40%] w-full"
         onClick={(e) => e.stopPropagation()}
       >
-        <img className="mb-4 mx-auto" src={heroImg} />
+        <img className="mb-4 mx-auto rounded-md" src={heroImg} />
         <form onSubmit={sendMessage} className="space-y-4">
           <div>
             <input
