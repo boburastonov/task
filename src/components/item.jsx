@@ -21,7 +21,7 @@ const Main = () => {
           bir necha barobarga oshiramiz yoki{" "}
           <span className="text-[#dbc470]">pulingizni qaytaramiz!</span>
         </h1>
-        <p className="md:w-[70%] w-[90%] text-[#fff] md:text-2xl text-[19px] md:mb-14 mb-7 text-center">
+        <p className="md:w-[70%] w-[90%] text-[#fff] md:text-2xl text-[19px] md:mb-14 mb-7 md:ml-0 mx-auto text-center">
           <span className="text-[#FCCB6F]">
             Bizning marketing xizmatimiz bilan
           </span>{" "}
